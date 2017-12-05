@@ -1,0 +1,59 @@
+
+/* ==========================================================================
+   Helpers
+   ========================================================================== */
+.debug {
+    outline: 1px dotted #0c0;
+}
+
+.light      { font-weight: 300; }
+.bold       { font-weight: 600; }
+.extra-bold { font-weight: 700; }
+
+.rub,
+.rur,
+.rouble {
+    font-family: 'Ruble';
+    font-weight: 300;
+}
+
+.height5  { height: 5px; }
+.height10 { height: 10px; }
+.height20 { height: 20px; }
+.height25 { height: 25px; }
+.height30 { height: 30px; }
+.height40 { height: 40px; }
+.height50 { height: 50px; }
+.height60 { height: 60px; }
+.height70 { height: 70px; }
+.height80 { height: 80px; }
+.height90 { height: 90px; }
+.height100 { height: 100px; }
+
+.no-padding {
+    padding: 0 !important;
+
+    &-left   { padding-left: 0 !important; }
+    &-right  { padding-right: 0 !important; }
+}
+
+.pos-rel { position: relative; }
+
+
+/* ==========================================================================
+   Vertical middle align
+   ========================================================================== */
+.vertical-middle {
+    display: table;
+
+    &,
+    & > div {
+        height: 100%;
+        width: 100%;
+        vertical-align: middle;
+    }
+
+    & > div {
+        display: table-cell;
+    }
+}

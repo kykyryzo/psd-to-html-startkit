@@ -1,0 +1,39 @@
+a.button,
+.button {
+    @include inline-block(auto, 60px);
+    @include transition(500ms);
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    white-space: nowrap;
+    color: theme-color("primary");
+    font: 400 30px/60px $white;
+    text-decoration: none;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 0 none;
+    background: #fff500;
+    position: relative;
+    top: 0px;
+    box-shadow: 0 5px 0 0 rgba($black, .2);
+
+    &:hover,
+    &:focus,
+    &.focus {
+        text-decoration: none;
+    }
+
+    &:hover {
+        color: $gray-100;
+        box-shadow: 0 6px 0 0 rgba($black, .2);
+    }
+
+    &:active,
+    &.active {
+        outline: 0;
+        top: 2px;
+        box-shadow: 0 4px 0 0 rgba($black, .2);
+    }
+}

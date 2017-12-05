@@ -1,0 +1,14 @@
+/* ==========================================================================
+   Vendors
+   ========================================================================== */
+
+@import "./../../bower_components/swiper/dist/css/swiper.min";
+
+@import  "./../../bower_components/magnific-popup/dist/magnific-popup";
+
+.mfp-bg {
+    background-color: #22242d;
+    @include opacity(80);
+}
+
+@import  "./../../bower_components/animate.css/animate.min";

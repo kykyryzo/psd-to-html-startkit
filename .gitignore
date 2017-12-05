@@ -1,0 +1,6 @@
+/bower_components
+/node_modules
+/.idea
+/src/scss/_sprite.scss
+/src/images/sprite.png
+/build

@@ -1,0 +1,34 @@
+/* ==========================================================================
+   Links
+   ========================================================================== */
+a {
+    color: $link-color;
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &:focus,
+    &:active {
+        color: $link-hover-color;
+    }
+
+    &,
+    &:hover,
+    &:active,
+    &:focus {
+        outline: 0 none !important;
+    }
+
+    > *[class^='icon__'],
+    > *[class*='icon__'] {
+        display: inline-block;
+        vertical-align: -1px;
+        margin: 0 8px 0 0;
+    }
+
+    > span + *[class^='icon__'],
+    > span + *[class*='icon__'] {
+        margin: 0 0 0 8px;
+    }
+}
